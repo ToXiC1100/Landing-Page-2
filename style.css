@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(243, 234, 217);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+    box-sizing: border-box;
+}
+.log{
+    margin: 10px 0px;
+    color: rgb(116, 110, 30);
+    font-size: 32px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+.options{
+    margin: 25px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.options ul{
+    display: flex;
+    list-style: none;
+}
+.options ul li{
+    padding: 0px 20px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+.buttons{
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+.btn-1{
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+.btn-2{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border-radius: 19px;
+    padding: 10px 40px;
+    cursor: pointer;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img{
+    /* border: 2px solid black;     */
+    margin-top: 80px;
+    margin-right: 20px;
+}
+.img img{
+    border-radius: 19px;
+}
+.container{
+    width: 30vw;
+    margin-top: 12vh;
+    height: 60vh;
+    margin-left: 10vw;
+}
+.t-1{
+    color: black;
+    font-size: 80px;
+    font-weight: bolder;
+    z-index: 2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.t-2{
+    color: white;
+    width: 350px;
+    font-size: 80px;
+    font-weight: bolder;
+    border: 2px solid brown;
+    padding: 5px;
+    text-align: center;
+    background-color: saddlebrown;
+    border-radius: 50px;
+    z-index: 3;
+    transform: rotateZ(-4deg);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px -30px;
+}
+.container p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container button{
+    background-color: black;
+    color: white;
+    border-radius: 19px;
+    padding: 10px 40px;
+    margin: 20px;
+    cursor: pointer;
+}
